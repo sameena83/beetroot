@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lesson 6</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 class="heading">Frontend course Dairy</h1>
-    <h2 class="name"> by <span>Haleemath Sameena</span></h2>
-    <ul class="description">
-        <li> Course Structure</li>
-        <li> Contact Me</li>
-    </ul>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="ul">
+        <li class="li"><a href="index.html">Home</a></li>
+        <li class="li"><a href="#Courses">Courses</a></li>
+        <li class="li"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header>Front-end course diary</header>
+    <aside class="name">
+      <h1>By Sameena</h1>
+    </aside>
 
-    <h1 class="heading">Course Structure</h1>
-    <table>
+    <aside class="course">
+      <ul>
+        <li>Course Structure</li>
+
+        <li>Contact Me</li>
+      </ul>
+    </aside>
+    <main>
+    <div class="heading">Course Structure</div>
+    <div>
+    <table class="table">
         <tr>
           <th>Lesson No</th>
           <th>Topic</th>
@@ -31,10 +45,12 @@
         </tr>
         
       </table>
-      <h1 class="heading">Contact Me</h1>
+      </div>
+      <div class="contact">Contact Me</div>
       <img  class="images-self" src="pic.jpg" alt="sameena">
-
-      <form>
+    </main>
+    <aside class="form">
+    <form>
         <label for="name">Your name:</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="message">Message:</label><br>
@@ -44,7 +60,9 @@
             <br><br>
             <input type="submit" value="Submit">
       </form>
-      <h1 class="heading">Have a nice day :)</h1>
-    
-</body>
+    </aside>
+    <footer>
+        Have a nice day :)
+    </footer>
+  </body>
 </html>

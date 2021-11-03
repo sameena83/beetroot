@@ -1,36 +1,124 @@
+html{
+    font-size:62.5%;
+    box-sizing: border-box;
+}
 body{
-    width:90%;
-    background: linear-gradient(135deg, rgb(77, 71, 62) 60%, cyan);
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    font-size:1.6rem;
+    font-family: Helvetica, Arial,sans-serif;
+    background-color:darksalmon
 }
-.heading{
-    text-align: center;
+/* Generic styles */
+a{
+    text-decoration: none;
+    color:#ffffff;
 }
-.name{
-    direction:rtl;
-}
-span{
-    color:deeppink;
-}
-.description{
-    font-size:24px;
-    font-weight: bolder;
-    font-family: fantasy;
+a:hover{
+    color:bisque;
 }
 
-table, th, td {
-    border:1px solid black;
-  }
-  table{
-      width:70%;
-      text-align: center;
-      margin-left: auto;
-  margin-right: auto;
-  }
-  .images-self{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    height:20%;
-    border: 3px solid black;
-  }
+nav{
+    height:6rem;
+    background-color:#203040;
+    top:0;
+    position:relative;
+}
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    
+   
+}
+.li{
+    margin-top:20px;
+    margin-right:20px;
+  
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size:3rem;
+    margin-top:10px;
+    }
+    .name{
+        direction: rtl;
+    }
+
+    li{
+        font:2rem;
+    }
+    table, th, td {
+        border:1px solid black;
+      }
+      table{
+          width:70%;
+          
+      }
+      .images-self{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height:20%;
+        border: 3px solid black;
+      }
+
+      main{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 20px;
+          padding-bottom:20px;
+      }
+
+      table, th, td {
+        border:1px solid black;
+      }
+      table{
+          width:70%;
+          text-align: center;
+          margin-left: auto;
+      margin-right: auto;
+      }
+      .images-self{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height:20%;
+        border: 3px solid black;
+      }
+      .heading{
+          font-weight: bolder;
+          font-size:2rem;
+          margin-bottom: 20px;
+      }
+     table{
+         margin-bottom: 10px;
+     }
+     .contact{
+         margin-bottom: 10px;
+         font-size:20px;
+     }
+    
+      .form{
+          margin-left: 10px;
+      }
+
+      footer{
+        
+        background-color:#203040;
+        color:#ffffff;
+        height:40px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
